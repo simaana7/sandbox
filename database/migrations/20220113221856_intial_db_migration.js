@@ -3,6 +3,7 @@ exports.up = async function (knex) {
     t.increments("id").unsigned().primary();
     t.integer("power_level");
     t.integer("qty");
+    t.string("name");
     t.timestamp("deleted_at");
   });
   await knex.schema.createTable("compositions", function (t) {
