@@ -1,50 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1732854701988" clover="3.2.0">
-  <project timestamp="1732854701988" name="All files">
-    <metrics statements="381" coveredstatements="338" conditionals="74" coveredconditionals="54" methods="76" coveredmethods="66" elements="531" coveredelements="458" complexity="0" loc="381" ncloc="381" packages="6" files="15" classes="15"/>
+<coverage generated="1732888885537" clover="3.2.0">
+  <project timestamp="1732888885537" name="All files">
+    <metrics statements="381" coveredstatements="339" conditionals="74" coveredconditionals="54" methods="76" coveredmethods="67" elements="531" coveredelements="460" complexity="0" loc="381" ncloc="381" packages="6" files="15" classes="15"/>
     <package name="sandbox">
-      <metrics statements="17" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="knexfile.js" path="/Users/simaanarshad/Desktop/sandbox/knexfile.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
       </file>
       <file name="server.js" path="/Users/simaanarshad/Desktop/sandbox/server.js">
-        <metrics statements="14" coveredstatements="13" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="3" type="stmt"/>
-        <line num="8" count="3" type="stmt"/>
-        <line num="11" count="3" type="stmt"/>
-        <line num="12" count="3" type="stmt"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
-        <line num="17" count="3" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="24" count="3" type="stmt"/>
+        <metrics statements="14" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="4" type="stmt"/>
       </file>
     </package>
     <package name="sandbox.config">
       <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
       <file name="dbConfig.js" path="/Users/simaanarshad/Desktop/sandbox/config/dbConfig.js">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="0" coveredmethods="0"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="4" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="6" count="4" type="stmt"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="4" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="6" count="5" type="stmt"/>
       </file>
     </package>
     <package name="sandbox.models">
       <metrics statements="149" coveredstatements="127" conditionals="18" coveredconditionals="15" methods="36" coveredmethods="33"/>
       <file name="composition.js" path="/Users/simaanarshad/Desktop/sandbox/models/composition.js">
         <metrics statements="42" coveredstatements="38" conditionals="6" coveredconditionals="6" methods="13" coveredmethods="12"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
         <line num="8" count="8" type="stmt"/>
         <line num="9" count="8" type="stmt"/>
         <line num="10" count="8" type="stmt"/>
@@ -83,20 +83,20 @@
         <line num="124" count="1" type="stmt"/>
         <line num="129" count="2" type="stmt"/>
         <line num="131" count="1" type="stmt"/>
-        <line num="136" count="3" type="stmt"/>
+        <line num="136" count="4" type="stmt"/>
       </file>
       <file name="material.js" path="/Users/simaanarshad/Desktop/sandbox/models/material.js">
         <metrics statements="28" coveredstatements="24" conditionals="4" coveredconditionals="3" methods="7" coveredmethods="7"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="7" count="17" type="stmt"/>
-        <line num="8" count="17" type="stmt"/>
-        <line num="9" count="17" type="stmt"/>
-        <line num="10" count="17" type="stmt"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="12" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="7" count="29" type="stmt"/>
+        <line num="8" count="29" type="stmt"/>
+        <line num="9" count="29" type="stmt"/>
+        <line num="10" count="29" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="24" type="stmt"/>
         <line num="18" count="0" type="stmt"/>
         <line num="23" count="6" type="stmt"/>
         <line num="24" count="6" type="stmt"/>
@@ -114,21 +114,21 @@
         <line num="52" count="1" type="stmt"/>
         <line num="53" count="1" type="stmt"/>
         <line num="55" count="0" type="stmt"/>
-        <line num="60" count="3" type="stmt"/>
+        <line num="60" count="4" type="stmt"/>
       </file>
       <file name="weapon.js" path="/Users/simaanarshad/Desktop/sandbox/models/weapon.js">
         <metrics statements="79" coveredstatements="65" conditionals="8" coveredconditionals="6" methods="16" coveredmethods="14"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="2" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="9" count="18" type="stmt"/>
-        <line num="10" count="18" type="stmt"/>
-        <line num="11" count="18" type="stmt"/>
-        <line num="12" count="18" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="3" type="stmt"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
+        <line num="9" count="21" type="stmt"/>
+        <line num="10" count="21" type="stmt"/>
+        <line num="11" count="21" type="stmt"/>
+        <line num="12" count="21" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+        <line num="18" count="6" type="stmt"/>
         <line num="20" count="0" type="stmt"/>
         <line num="25" count="0" type="stmt"/>
         <line num="26" count="0" type="stmt"/>
@@ -196,95 +196,95 @@
         <line num="167" count="21" type="stmt"/>
         <line num="172" count="21" type="stmt"/>
         <line num="182" count="0" type="stmt"/>
-        <line num="187" count="4" type="stmt"/>
+        <line num="187" count="5" type="stmt"/>
       </file>
     </package>
     <package name="sandbox.routes">
       <metrics statements="66" coveredstatements="62" conditionals="18" coveredconditionals="7" methods="9" coveredmethods="9"/>
       <file name="compositionsRouter.js" path="/Users/simaanarshad/Desktop/sandbox/routes/compositionsRouter.js">
         <metrics statements="22" coveredstatements="22" conditionals="6" coveredconditionals="3" methods="3" coveredmethods="3"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
         <line num="6" count="7" type="stmt"/>
         <line num="7" count="7" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="10" count="6" type="stmt"/>
         <line num="11" count="6" type="cond" truecount="1" falsecount="1"/>
-        <line num="15" count="3" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
         <line num="16" count="5" type="stmt"/>
         <line num="17" count="5" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
         <line num="24" count="4" type="stmt"/>
         <line num="25" count="4" type="cond" truecount="1" falsecount="1"/>
-        <line num="29" count="3" type="stmt"/>
+        <line num="29" count="4" type="stmt"/>
         <line num="30" count="2" type="stmt"/>
         <line num="31" count="2" type="stmt"/>
         <line num="32" count="1" type="stmt"/>
         <line num="34" count="1" type="stmt"/>
         <line num="35" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="39" count="3" type="stmt"/>
+        <line num="39" count="4" type="stmt"/>
       </file>
       <file name="materialsRouter.js" path="/Users/simaanarshad/Desktop/sandbox/routes/materialsRouter.js">
         <metrics statements="28" coveredstatements="26" conditionals="8" coveredconditionals="3" methods="4" coveredmethods="4"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="15" count="3" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
         <line num="16" count="2" type="stmt"/>
         <line num="17" count="2" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
         <line num="21" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="25" count="3" type="stmt"/>
+        <line num="25" count="4" type="stmt"/>
         <line num="26" count="5" type="stmt"/>
         <line num="27" count="5" type="stmt"/>
         <line num="28" count="1" type="stmt"/>
         <line num="30" count="4" type="stmt"/>
         <line num="31" count="4" type="cond" truecount="1" falsecount="1"/>
-        <line num="35" count="3" type="stmt"/>
+        <line num="35" count="4" type="stmt"/>
         <line num="36" count="2" type="stmt"/>
         <line num="37" count="2" type="stmt"/>
         <line num="38" count="1" type="stmt"/>
         <line num="40" count="1" type="stmt"/>
         <line num="41" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="45" count="3" type="stmt"/>
+        <line num="45" count="4" type="stmt"/>
       </file>
       <file name="weaponsRouter.js" path="/Users/simaanarshad/Desktop/sandbox/routes/weaponsRouter.js">
         <metrics statements="16" coveredstatements="14" conditionals="4" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="11" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="15" count="3" type="stmt"/>
+        <line num="15" count="4" type="stmt"/>
         <line num="16" count="2" type="stmt"/>
         <line num="17" count="2" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
         <line num="22" count="1" type="stmt"/>
         <line num="23" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="27" count="3" type="stmt"/>
+        <line num="27" count="4" type="stmt"/>
       </file>
     </package>
     <package name="sandbox.services">
       <metrics statements="91" coveredstatements="86" conditionals="20" coveredconditionals="19" methods="19" coveredmethods="14"/>
       <file name="compositionService.js" path="/Users/simaanarshad/Desktop/sandbox/services/compositionService.js">
         <metrics statements="49" coveredstatements="44" conditionals="16" coveredconditionals="15" methods="7" coveredmethods="4"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="5" count="3" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
         <line num="6" count="14" type="stmt"/>
         <line num="7" count="7" type="cond" truecount="2" falsecount="0"/>
         <line num="8" count="1" type="stmt"/>
@@ -329,22 +329,22 @@
         <line num="116" count="1" type="stmt"/>
         <line num="121" count="1" type="stmt"/>
         <line num="124" count="14" type="stmt"/>
-        <line num="127" count="3" type="stmt"/>
+        <line num="127" count="4" type="stmt"/>
       </file>
       <file name="materialService.js" path="/Users/simaanarshad/Desktop/sandbox/services/materialService.js">
         <metrics statements="32" coveredstatements="32" conditionals="4" coveredconditionals="4" methods="9" coveredmethods="7"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="2" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="6" count="3" type="stmt"/>
-        <line num="7" count="10" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="12" count="10" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="11" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="12" count="11" type="stmt"/>
         <line num="13" count="2" type="stmt"/>
         <line num="14" count="1" type="stmt"/>
-        <line num="17" count="10" type="stmt"/>
+        <line num="17" count="11" type="stmt"/>
         <line num="18" count="5" type="cond" truecount="4" falsecount="0"/>
         <line num="19" count="3" type="stmt"/>
         <line num="22" count="2" type="stmt"/>
@@ -353,7 +353,7 @@
         <line num="26" count="1" type="stmt"/>
         <line num="27" count="1" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
-        <line num="32" count="10" type="stmt"/>
+        <line num="32" count="11" type="stmt"/>
         <line num="33" count="2" type="stmt"/>
         <line num="34" count="1" type="stmt"/>
         <line num="36" count="1" type="stmt"/>
@@ -363,42 +363,42 @@
         <line num="42" count="1" type="stmt"/>
         <line num="43" count="1" type="stmt"/>
         <line num="45" count="1" type="stmt"/>
-        <line num="48" count="10" type="stmt"/>
-        <line num="51" count="3" type="stmt"/>
+        <line num="48" count="11" type="stmt"/>
+        <line num="51" count="4" type="stmt"/>
       </file>
       <file name="weaponService.js" path="/Users/simaanarshad/Desktop/sandbox/services/weaponService.js">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="1" count="3" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="4" count="3" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="9" count="3" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
         <line num="10" count="2" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
-        <line num="14" count="3" type="stmt"/>
-        <line num="17" count="3" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="17" count="4" type="stmt"/>
       </file>
     </package>
     <package name="sandbox.utils">
       <metrics statements="54" coveredstatements="43" conditionals="16" coveredconditionals="11" methods="11" coveredmethods="10"/>
       <file name="errors.js" path="/Users/simaanarshad/Desktop/sandbox/utils/errors.js">
         <metrics statements="11" coveredstatements="8" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="3"/>
-        <line num="1" count="4" type="stmt"/>
-        <line num="3" count="4" type="stmt"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
         <line num="9" count="12" type="stmt"/>
         <line num="10" count="6" type="stmt"/>
-        <line num="12" count="4" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
         <line num="13" count="6" type="cond" truecount="1" falsecount="1"/>
         <line num="14" count="0" type="stmt"/>
         <line num="15" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
         <line num="18" count="6" type="stmt"/>
-        <line num="21" count="4" type="stmt"/>
+        <line num="21" count="5" type="stmt"/>
       </file>
       <file name="logger.js" path="/Users/simaanarshad/Desktop/sandbox/utils/logger.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="4" type="stmt"/>
+        <line num="1" count="5" type="stmt"/>
         <line num="2" count="18" type="stmt"/>
         <line num="3" count="18" type="stmt"/>
       </file>
@@ -443,7 +443,7 @@
         <line num="122" count="0" type="stmt"/>
         <line num="123" count="0" type="stmt"/>
         <line num="126" count="0" type="stmt"/>
-        <line num="130" count="4" type="stmt"/>
+        <line num="130" count="5" type="stmt"/>
       </file>
     </package>
   </project>

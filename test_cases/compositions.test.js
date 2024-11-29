@@ -17,7 +17,7 @@ describe('POST /api/material/:parentId/composition', () => {
     });
     
     it('should return 400 if parentId is equal to material_id', async () => {
-      const payload = { material_id: 1, qty: 5 }; // parentId == material_id
+      const payload = { material_id: 1, qty: 5 };
 
       const res = await request(app).post('/api/material/1/composition').send(payload);
 
@@ -77,6 +77,16 @@ describe('POST /api/material/:parentId/composition', () => {
       expect(res.body.updatedComposition).toHaveProperty('qty', 12);
     });
 
+
+    it('should return 400 for pre-existent composition', async () => {
+      const payload = { material_id: 4, qty: 5 };
+
+      const res = await request(app).put('/api/material/2/composition/3').send(payload);
+
+      expect(res.statusCode).toBe(400);
+      expect(res.body).toHaveProperty('message','The composition with the parent_id 2 and the material_id 4 already exists');
+    });
+
     it('should return 400 if qty is negative', async () => {
       const payload = { material_id: 2, qty: -5 };
 
@@ -103,16 +113,6 @@ describe('POST /api/material/:parentId/composition', () => {
       expect(res.statusCode).toBe(404);
       expect(res.body).toHaveProperty('message', 'Composition with the parent_id 1 and the material_id 999 does not exist');
     });
-
-    it('should return 404 if composition already exist', async () => {
-      const payload = { material_id: 5, qty: 5 };
-
-      const res = await request(app).put('/api/material/3/composition/12').send(payload);
-
-      expect(res.statusCode).toBe(400);
-      expect(res.body).toHaveProperty('message', 'The composition with the parent_id 3 and the material_id 5 already exists');
-    });
-
   });
 
   describe('DELETE /api/material/:parentId/composition/:materialId', () => {

@@ -5,7 +5,7 @@ describe('End to End Test', () => {
 
     let weaponId;
 
-    test('Create a weapon with materials', async () => {
+    test('create a weapon with materials', async () => {
         const name = 'QA Stick';
         const id = 4;
         const materials = [{ id: 1 }, { id: 9 }];
@@ -37,7 +37,7 @@ describe('End to End Test', () => {
         expect(dbWeaponMaterials[1].material_id).toBe(materials[1].id);
     });
 
-    test('Calculate the power level of the weapon', async () => {
+    test('calculate the power level of the weapon', async () => {
         const result = await dbConfig.raw(`
             WITH RECURSIVE material_hierarchy AS (
                 SELECT
@@ -79,8 +79,7 @@ describe('End to End Test', () => {
 
     afterAll(async () => {
         await dbConfig('weapons_materials').where({ weapon_id: weaponId }).del();
-        await dbConfig('weapons').where({ id: 4 }).del();
+        await dbConfig('weapons').where({ id: weaponId }).del();
     });
-    
-    
+
 });
