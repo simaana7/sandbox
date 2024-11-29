@@ -1,6 +1,5 @@
 const request = require('supertest');
 const app = require('../server');
-const dbConfig = require('../config/dbConfig');
 
 describe('POST /api/material/:parentId/composition', () => {
 

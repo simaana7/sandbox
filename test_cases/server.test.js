@@ -2,6 +2,7 @@ const request = require('supertest');
 const server = require('../server');
 
 describe('GET /api', () => {
+    
   it('should return 200', async () => {
     const res = await request(server).get('/');
 

@@ -1,6 +1,5 @@
 const request = require('supertest');
 const app = require('../server');
-const dbConfig = require('../config/dbConfig');
 
 describe(' GET /api/weapon', () => {
 
@@ -25,4 +24,5 @@ describe(' GET /api/weapon', () => {
     expect(res.statusCode).toBe(404);
     expect(res.body).toHaveProperty('message', 'Weapon with ID 1342 does not exist');
   });
+  
 });
